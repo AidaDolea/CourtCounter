@@ -1,0 +1,63 @@
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF8A65</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#FF3D00</item>
+        <item name="android:layout_margin">5dp</item>
+       <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="background_image_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="buttons_score_style">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="teams_name_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/teamsize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="teams_score_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/scorsize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="restart_button_style">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/imageView</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="reset_button_landscape">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

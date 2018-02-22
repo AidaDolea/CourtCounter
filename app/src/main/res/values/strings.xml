@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Score Keeper</string>
+    <string name="basketballplayer">basketballplayer</string>
+    <string name="sansserifmedium">sans-serif-medium</string>
+    <string name="team_a">Team A</string>
+    <string name="_0">0</string>
+    <string name="_3_points">+3\nPoints</string>
+    <string name="_2_points">+2\nPoints</string>
+    <string name="team_b">Team B</string>
+    <string name="free_throw">Free\nThrow</string>
+    <string name="reset">Reset</string>
+    <string name="home">Home</string>
+    <string name="textscore">0</string>
+    <string name="guest">Guest</string>
+    <string name="new_game">New\nGame</string>
+
+
+</resources>

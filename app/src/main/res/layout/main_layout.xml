@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding_top_main">
+
+        <TextView
+            style="@style/teams_name_style"
+            android:text="@string/home" />
+
+        <TextView
+            android:id="@+id/team_a_score"
+            style="@style/teams_score_style"
+            android:text="@string/textscore" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showThreeA"
+            android:text="@string/_3_points" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showTwoA"
+            android:text="@string/_2_points" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showOneA"
+            android:text="@string/free_throw" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding_top_main">
+
+        <TextView
+            style="@style/teams_name_style"
+            android:text="@string/guest" />
+
+        <TextView
+            android:id="@+id/team_b_score"
+            style="@style/teams_score_style"
+            android:text="@string/textscore" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showThreeB"
+            android:text="@string/_3_points" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showTwoB"
+            android:text="@string/_2_points" />
+
+        <Button
+            style="@style/buttons_score_style"
+            android:onClick="showOneB"
+            android:text="@string/free_throw" />
+
+    </LinearLayout>
+</LinearLayout>
